@@ -106,7 +106,8 @@
             height: height,
             display: elm.css("display"),
             "vertical-align": elm.css("vertical-align"),
-            "float": el_float
+            "float": el_float,
+            "z-index": -1
           });
         }
         if (restore) {
